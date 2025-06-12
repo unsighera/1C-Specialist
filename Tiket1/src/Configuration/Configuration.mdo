@@ -48,6 +48,7 @@
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <enums>Enum.МетодыСписания</enums>
+  <reports>Report.ОстаткиТоваров</reports>
   <informationRegisters>InformationRegister.ИсторияУчетныхПолитик</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ПартииНоменклатуры</accumulationRegisters>

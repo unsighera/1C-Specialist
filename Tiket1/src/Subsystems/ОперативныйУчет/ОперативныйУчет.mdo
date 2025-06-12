@@ -13,4 +13,5 @@
   <content>Document.РасходнаяНакладная</content>
   <content>AccumulationRegister.ПартииНоменклатуры</content>
   <content>InformationRegister.ИсторияУчетныхПолитик</content>
+  <content>Report.ОстаткиТоваров</content>
 </mdclass:Subsystem>
