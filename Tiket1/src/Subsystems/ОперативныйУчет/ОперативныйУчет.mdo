@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d04402f4-396b-4b0e-9481-faa06b70545c">
+  <name>ОперативныйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оперативный учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.ОстаткиНоменклатуры</content>
+  <content>Catalog.Склады</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Document.РасходнаяНакладная</content>
+  <content>AccumulationRegister.ПартииНоменклатуры</content>
+  <content>InformationRegister.ИсторияУчетныхПолитик</content>
+</mdclass:Subsystem>

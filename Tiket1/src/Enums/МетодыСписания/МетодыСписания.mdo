@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="479270c3-3c87-4ec0-bccd-22bcc36f3d15">
+  <producedTypes>
+    <refType typeId="b002bf2b-df32-4e7e-ba85-90d0dc80bf6e" valueTypeId="67982809-8dbb-4536-ba1b-e5d4ba4b5769"/>
+    <listType typeId="0a756c38-8c70-4ff9-84b8-58ceedd55bed" valueTypeId="7b1dbd53-dc05-4ec2-ae5c-d4fa1c07e0f8"/>
+    <managerType typeId="8ef4eeb4-9903-4e26-820a-699331ed0184" valueTypeId="580f575d-4dab-40f8-98c9-401ed021d2a0"/>
+  </producedTypes>
+  <name>МетодыСписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы списания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8703ce88-8410-4b71-a298-2ea66b22b5ba">
+    <name>FIFO</name>
+    <synonym>
+      <key>ru</key>
+      <value>FIFO</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b20eff42-96ab-4f2c-ad76-388c63eb1ce1">
+    <name>LIFO</name>
+    <synonym>
+      <key>ru</key>
+      <value>LIFO</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

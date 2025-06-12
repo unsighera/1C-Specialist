@@ -39,4 +39,16 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.ОперативныйУчет</subsystems>
+  <commonModules>CommonModule.НоменклатураКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.РасходнаяНакладная</documents>
+  <enums>Enum.МетодыСписания</enums>
+  <informationRegisters>InformationRegister.ИсторияУчетныхПолитик</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПартииНоменклатуры</accumulationRegisters>
 </mdclass:Configuration>
