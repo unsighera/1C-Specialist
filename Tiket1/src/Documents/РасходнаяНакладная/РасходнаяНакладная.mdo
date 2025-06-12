@@ -129,7 +129,6 @@
         <types>Number</types>
         <numberQualifiers>
           <precision>12</precision>
-          <scale>2</scale>
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>

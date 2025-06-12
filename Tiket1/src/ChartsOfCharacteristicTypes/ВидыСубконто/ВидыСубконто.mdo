@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66bbab55-abc4-47bb-b0fc-51ea8fa4ee44">
+  <producedTypes>
+    <objectType typeId="4645ed8b-41be-4f4d-be9b-c3a9a3699905" valueTypeId="a0eb200a-af3a-4844-ac1b-15c3113de506"/>
+    <refType typeId="e7d5776b-ce3d-4f39-a575-77252ea978c8" valueTypeId="f95e9c41-08ce-4bb9-ad7f-b5debd89372f"/>
+    <selectionType typeId="97beeea4-81ae-4704-8f04-bb36d67c1ed1" valueTypeId="fcab3b21-2b0d-438e-b43b-e78c7392b10a"/>
+    <listType typeId="f3ed92f9-e18f-437f-8789-f40c9f79662a" valueTypeId="22356043-9c66-44d1-a89f-cef3309245c2"/>
+    <managerType typeId="175ab08b-49a9-46ef-9565-8de1beb46556" valueTypeId="86b86dab-0855-4ed3-ab8c-4d5bf522365f"/>
+    <containerType typeId="775c49a8-90f5-459d-82fc-5c6da1e8a100" valueTypeId="5f11ae41-530a-4749-a5f7-531ec158aaa2"/>
+  </producedTypes>
+  <name>ВидыСубконто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды субконто</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.СрокиГодности</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="648e85b6-eed7-48c7-af49-7c958a57d7f8">
+      <name>Номенклатура</name>
+      <description>Номенклатура</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+    </items>
+    <items id="e860d319-462c-4d11-aa16-9f1e6982249f">
+      <name>СрокГодностиТовара</name>
+      <description>Срок годности товара</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.СрокиГодности</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>
