@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0bbda4b9-f20d-4b84-8fd5-bf3b6b5cc925">
+  <producedTypes>
+    <objectType typeId="a899559c-28e3-46de-a8d3-8c4de44d8188" valueTypeId="a046c4d7-f52c-4bcf-88dc-31b8cb1d4daf"/>
+    <managerType typeId="c044de92-6d6c-4768-86d3-ada096ae4fc8" valueTypeId="1cffcf44-53b8-4c78-aad1-675bdfc658bf"/>
+  </producedTypes>
+  <name>ОстаткиТоваровБУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки товаров БУ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <commands uuid="d270c562-170c-45f5-86a1-d05991301918">
+    <name>ОтчетОстаткиТоваровБУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки товаров (БУ)</value>
+    </synonym>
+    <group>CommandGroup.Аналитика</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

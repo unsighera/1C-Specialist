@@ -14,7 +14,7 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Report.ОстаткиТоваров.StandardCommand.Open</command>
+      <command>Report.ОстаткиТоваровОУ.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
   </commandsVisibility>

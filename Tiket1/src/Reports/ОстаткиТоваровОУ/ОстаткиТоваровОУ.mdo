@@ -4,13 +4,13 @@
     <objectType typeId="1a8e8010-be80-4c2b-89ba-e5726c0dd312" valueTypeId="fc8a1c82-7726-4c2c-bd30-0bc4c82e669c"/>
     <managerType typeId="ef9321dd-f79b-4e8e-8742-b2a832ed5d79" valueTypeId="5c3a0fa3-0a6d-4e57-b89a-23735097e3e4"/>
   </producedTypes>
-  <name>ОстаткиТоваров</name>
+  <name>ОстаткиТоваровОУ</name>
   <synonym>
     <key>ru</key>
-    <value>Остатки товаров</value>
+    <value>Остатки товаров ОУ</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <mainDataCompositionSchema>Report.ОстаткиТоваров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <mainDataCompositionSchema>Report.ОстаткиТоваровОУ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="2baff7fd-8c55-479b-a595-f8c8077546dd">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

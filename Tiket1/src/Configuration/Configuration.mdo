@@ -58,10 +58,12 @@
   <commandGroups>CommandGroup.Инструменты</commandGroups>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.Операция</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <enums>Enum.МетодыСписания</enums>
-  <reports>Report.ОстаткиТоваров</reports>
+  <reports>Report.ОстаткиТоваровБУ</reports>
+  <reports>Report.ОстаткиТоваровОУ</reports>
   <informationRegisters>InformationRegister.ИсторияУчетныхПолитик</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ПартииНоменклатуры</accumulationRegisters>

@@ -21,6 +21,10 @@
       <group>CommandGroup.ПланыВидовХарактеристик</group>
       <commands>ChartOfCharacteristicTypes.ВидыСубконто.StandardCommand.OpenList</commands>
     </placementFragments>
+    <placementFragments>
+      <group>CommandGroup.Документы</group>
+      <commands>Document.Операция.StandardCommand.OpenList</commands>
+    </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
@@ -34,6 +38,10 @@
     <orderFragments>
       <group>CommandGroup.ПланыВидовХарактеристик</group>
       <commands>ChartOfCharacteristicTypes.ВидыСубконто.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>CommandGroup.Документы</group>
+      <commands>Document.Операция.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
