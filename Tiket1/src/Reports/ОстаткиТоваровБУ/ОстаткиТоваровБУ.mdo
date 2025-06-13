@@ -10,6 +10,15 @@
     <value>Остатки товаров БУ</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОстаткиТоваровБУ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="86ce1ed4-2fcd-43ca-b3fa-7ecc867c30c2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
   <commands uuid="d270c562-170c-45f5-86a1-d05991301918">
     <name>ОтчетОстаткиТоваровБУ</name>
     <synonym>
