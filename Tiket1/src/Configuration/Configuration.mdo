@@ -44,9 +44,20 @@
   <subsystems>Subsystem.ОперативныйУчет</subsystems>
   <commonModules>CommonModule.НоменклатураКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commandGroups>CommandGroup.Справочники</commandGroups>
+  <commandGroups>CommandGroup.Документы</commandGroups>
+  <commandGroups>CommandGroup.ПланыВидовХарактеристик</commandGroups>
+  <commandGroups>CommandGroup.ПланыСчетов</commandGroups>
+  <commandGroups>CommandGroup.РегистрыСведений</commandGroups>
+  <commandGroups>CommandGroup.РегистрыНакопления</commandGroups>
+  <commandGroups>CommandGroup.РегистрыБухгалтерии</commandGroups>
+  <commandGroups>CommandGroup.РегистрыРасчета</commandGroups>
+  <commandGroups>CommandGroup.БизнесПроцессы</commandGroups>
+  <commandGroups>CommandGroup.Задачи</commandGroups>
+  <commandGroups>CommandGroup.Аналитика</commandGroups>
+  <commandGroups>CommandGroup.Инструменты</commandGroups>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
-  <catalogs>Catalog.СрокиГодности</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <enums>Enum.МетодыСписания</enums>

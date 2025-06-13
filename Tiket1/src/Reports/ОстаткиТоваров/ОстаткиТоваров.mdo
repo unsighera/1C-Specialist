@@ -19,4 +19,13 @@
     </synonym>
     <templateType>DataCompositionSchema</templateType>
   </templates>
+  <commands uuid="f3794a7e-be7f-4d08-a516-15d4c9f9c39a">
+    <name>ОтчетОстаткиТоваровОУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки товаров (ОУ)</value>
+    </synonym>
+    <group>CommandGroup.Аналитика</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Report>

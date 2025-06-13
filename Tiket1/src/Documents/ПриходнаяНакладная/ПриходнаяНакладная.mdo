@@ -170,7 +170,10 @@
         <value>Срок годности</value>
       </synonym>
       <type>
-        <types>CatalogRef.СрокиГодности</types>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

@@ -22,7 +22,10 @@
   <fullTextSearch>Use</fullTextSearch>
   <type>
     <types>CatalogRef.Номенклатура</types>
-    <types>CatalogRef.СрокиГодности</types>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
   </type>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -45,7 +48,10 @@
       <description>Срок годности товара</description>
       <code>000000002</code>
       <type>
-        <types>CatalogRef.СрокиГодности</types>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
       </type>
     </items>
   </predefined>

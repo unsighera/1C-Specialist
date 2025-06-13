@@ -80,6 +80,8 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <autoOrderByCode>true</autoOrderByCode>
+  <orderLength>9</orderLength>
   <accountingFlags uuid="569ad057-d5bf-4cf3-b0a7-ff49ef20a3d5">
     <name>Количественный</name>
     <synonym>
