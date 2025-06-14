@@ -39,9 +39,13 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.БизнесПроцессы</subsystems>
   <subsystems>Subsystem.БухгалтерскийУчет</subsystems>
-  <subsystems>Subsystem.НСИ</subsystems>
   <subsystems>Subsystem.ОперативныйУчет</subsystems>
+  <subsystems>Subsystem.Расчеты</subsystems>
+  <subsystems>Subsystem.Сервис</subsystems>
+  <sessionParameters>SessionParameter.ТекущийСотрудник</sessionParameters>
+  <commonModules>CommonModule.НачислениеЗарплатыСервер</commonModules>
   <commonModules>CommonModule.НоменклатураКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commandGroups>CommandGroup.Справочники</commandGroups>
@@ -56,18 +60,32 @@
   <commandGroups>CommandGroup.Задачи</commandGroups>
   <commandGroups>CommandGroup.Аналитика</commandGroups>
   <commandGroups>CommandGroup.Инструменты</commandGroups>
+  <commandGroups>CommandGroup.ПланыВидовРасчета</commandGroups>
+  <catalogs>Catalog.Графики</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <documents>Document.НачислениеЗарплаты</documents>
   <documents>Document.Операция</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <enums>Enum.МетодыСписания</enums>
   <reports>Report.ОстаткиТоваровБУ</reports>
   <reports>Report.ОстаткиТоваровОУ</reports>
+  <dataProcessors>DataProcessor.ЗаполнениеГрафика</dataProcessors>
+  <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
   <informationRegisters>InformationRegister.ИсторияУчетныхПолитик</informationRegisters>
+  <informationRegisters>InformationRegister.ПроцентыПремии</informationRegisters>
+  <informationRegisters>InformationRegister.СведенияОСотрудниках</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ПартииНоменклатуры</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.Управленческий</chartsOfAccounts>
   <accountingRegisters>AccountingRegister.Управленческий</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ДополнительныеНачисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Удержания</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.ДополнительныеНачисления</calculationRegisters>
+  <calculationRegisters>CalculationRegister.ОсновныеНачисления</calculationRegisters>
 </mdclass:Configuration>

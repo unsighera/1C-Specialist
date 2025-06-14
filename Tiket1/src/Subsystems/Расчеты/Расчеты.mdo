@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe72dc15-dda2-4827-9a76-5ffe08dc86ea">
+  <name>Расчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ChartOfCalculationTypes.ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ДополнительныеНачисления</content>
+  <content>InformationRegister.ГрафикиРаботы</content>
+  <content>InformationRegister.СведенияОСотрудниках</content>
+  <content>Document.НачислениеЗарплаты</content>
+  <content>Catalog.Графики</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.Подразделения</content>
+  <content>DataProcessor.ЗаполнениеГрафика</content>
+  <content>ChartOfCalculationTypes.Удержания</content>
+  <content>InformationRegister.ПроцентыПремии</content>
+  <content>CalculationRegister.ДополнительныеНачисления</content>
+  <content>CalculationRegister.ОсновныеНачисления</content>
+</mdclass:Subsystem>

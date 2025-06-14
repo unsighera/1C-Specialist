@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cc34dbd-9018-4006-9b99-567b99676a0f">
+  <producedTypes>
+    <selectionType typeId="806468b4-0429-4a7d-ab60-45b1f1e1140d" valueTypeId="7575a7d2-b98b-4d9d-9e00-6f7cc284a5df"/>
+    <listType typeId="bac265c8-52d0-4954-80c3-15e4f44a7cbe" valueTypeId="198c9bc3-f4e5-4032-a420-c9627ff6b6ec"/>
+    <managerType typeId="8d6e9085-faf0-4f5b-9182-2a329b7d0364" valueTypeId="ff8bb444-4dec-4562-b6bb-741bd56fc8d8"/>
+    <recordSetType typeId="ea673db1-f584-4e3a-afb4-fc54a8c950aa" valueTypeId="bcb45022-6e9e-41d8-9db1-e693db98ccd2"/>
+    <recordKeyType typeId="69df7ffe-643c-44ac-b8b1-4303327a7928" valueTypeId="bafad2f3-4fe4-4832-9e6f-fa85cf71bcb7"/>
+    <recordType typeId="3d5e83f4-0671-4578-8925-07d0c9b508d2" valueTypeId="43819a0c-9e29-4f31-9a43-57a402cbb62c"/>
+    <recordManagerType typeId="b91c9078-6fc9-49b1-945b-0448683c5a43" valueTypeId="f58a2362-be5f-45ea-83e6-0a7346f9580c"/>
+  </producedTypes>
+  <name>ПроцентыПремии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проценты премии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1446c6a7-2fe9-42cf-8e91-f0a959bd5950">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0884041b-885e-4dff-9f02-4af32b0188da">
+    <name>СтажОт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стаж от</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1b9c90b5-8079-4e2d-9d59-36e9c9429070">
+    <name>СтажДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стаж до</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
