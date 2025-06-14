@@ -27,7 +27,6 @@
     <placementFragments>
       <group>CommandGroup.Справочники</group>
       <commands>Catalog.Графики.StandardCommand.OpenList</commands>
-      <commands>Catalog.Подразделения.StandardCommand.OpenList</commands>
       <commands>Catalog.ФизическиеЛица.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
@@ -56,7 +55,6 @@
     <orderFragments>
       <group>CommandGroup.Справочники</group>
       <commands>Catalog.Графики.StandardCommand.OpenList</commands>
-      <commands>Catalog.Подразделения.StandardCommand.OpenList</commands>
       <commands>Catalog.ФизическиеЛица.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>

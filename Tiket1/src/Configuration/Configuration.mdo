@@ -62,6 +62,7 @@
   <commandGroups>CommandGroup.Инструменты</commandGroups>
   <commandGroups>CommandGroup.ПланыВидовРасчета</commandGroups>
   <catalogs>Catalog.Графики</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Склады</catalogs>
@@ -78,6 +79,7 @@
   <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
   <informationRegisters>InformationRegister.ИсторияУчетныхПолитик</informationRegisters>
   <informationRegisters>InformationRegister.ПроцентыПремии</informationRegisters>
+  <informationRegisters>InformationRegister.РегистрАдресации</informationRegisters>
   <informationRegisters>InformationRegister.СведенияОСотрудниках</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ПартииНоменклатуры</accumulationRegisters>
@@ -89,4 +91,6 @@
   <chartsOfCalculationTypes>ChartOfCalculationTypes.Удержания</chartsOfCalculationTypes>
   <calculationRegisters>CalculationRegister.ДополнительныеНачисления</calculationRegisters>
   <calculationRegisters>CalculationRegister.ОсновныеНачисления</calculationRegisters>
+  <businessProcesses>BusinessProcess.БизнесПроцессПродажиТовара</businessProcesses>
+  <tasks>Task.ЗадачиИсполнителей</tasks>
 </mdclass:Configuration>

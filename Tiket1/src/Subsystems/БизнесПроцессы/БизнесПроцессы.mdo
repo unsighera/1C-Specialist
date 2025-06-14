@@ -7,4 +7,9 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Должности</content>
+  <content>Catalog.Подразделения</content>
+  <content>InformationRegister.РегистрАдресации</content>
+  <content>BusinessProcess.БизнесПроцессПродажиТовара</content>
+  <content>Task.ЗадачиИсполнителей</content>
 </mdclass:Subsystem>

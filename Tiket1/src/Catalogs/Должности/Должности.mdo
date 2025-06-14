@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83ae1c73-4373-40f2-9fc8-f52d5527824b">
+  <producedTypes>
+    <objectType typeId="1fd3531d-0b9d-41b3-8e4d-4581d67b49f1" valueTypeId="ba3ebd07-9462-4ac1-ab74-73d6b36b68f4"/>
+    <refType typeId="0cf6f5a2-9cfb-4533-aa70-4a66cf0ef6de" valueTypeId="950f502d-7eb2-4a66-a63c-883f880a9c63"/>
+    <selectionType typeId="fd932d73-1e4f-418c-bfe4-2f6fa955223d" valueTypeId="d4ff14ad-3076-4a5a-b8f8-e7084ae37913"/>
+    <listType typeId="ddc11109-21e5-4926-83cd-6e6521a53905" valueTypeId="fb4a0be8-01ad-47a9-b8db-d6491b8c06fb"/>
+    <managerType typeId="228f9519-2922-4a78-bbe4-71a649f649d7" valueTypeId="8ee7f7ef-13f6-4c5c-a16f-f393be39ec75"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="6829f744-39f9-4121-9cba-4d7054f56cac">
+      <name>Менеджер</name>
+      <description>Менеджер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="6ca35c85-3d12-4e0f-920c-aca126bb6470">
+      <name>Кладовщик</name>
+      <description>Кладовщик</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="c054eb3e-2cf2-449f-b180-f7b39d620d3b">
+      <name>Бухгалтер</name>
+      <description>Бухгалтер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
