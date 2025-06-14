@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="539df39d-4de5-40c0-a2ff-3e8b6d7e0ad8">
+  <producedTypes>
+    <objectType typeId="660a0bc6-5b5f-4c39-b9da-d5076d1cf779" valueTypeId="58ca4b8e-c618-45d5-a95a-7883a3edd635"/>
+    <managerType typeId="f3cdb985-2c3b-435a-a373-ca64b427bc22" valueTypeId="e65cd419-97e0-4f7e-b7e6-3ecc3e7c3f76"/>
+  </producedTypes>
+  <name>АнализНачисленийПремий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ начислений премий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализНачисленийПремий.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="d5921217-7264-4746-b790-6c93e23b59a4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="5614ab26-b88b-4df1-802d-b4576e86e1dd">
+    <name>ОтчетАнализНачисленийПремий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет анализ начислений премий</value>
+    </synonym>
+    <group>CommandGroup.Аналитика</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

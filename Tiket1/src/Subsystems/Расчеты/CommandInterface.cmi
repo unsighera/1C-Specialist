@@ -13,6 +13,10 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.АнализНачисленийПремий.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>

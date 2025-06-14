@@ -71,6 +71,7 @@
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <enums>Enum.МетодыСписания</enums>
+  <reports>Report.АнализНачисленийПремий</reports>
   <reports>Report.ОстаткиТоваровБУ</reports>
   <reports>Report.ОстаткиТоваровОУ</reports>
   <dataProcessors>DataProcessor.ЗаполнениеГрафика</dataProcessors>

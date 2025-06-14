@@ -20,4 +20,5 @@
   <content>InformationRegister.ПроцентыПремии</content>
   <content>CalculationRegister.ДополнительныеНачисления</content>
   <content>CalculationRegister.ОсновныеНачисления</content>
+  <content>Report.АнализНачисленийПремий</content>
 </mdclass:Subsystem>
